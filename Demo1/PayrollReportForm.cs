@@ -21,6 +21,7 @@ namespace Demo1
 
         private void btCalculatePay_Click(object sender, EventArgs e)
         {
+            tbPay.Text = "";
             if(_payroll.Emp != null)
             {
                 _payroll.CalculatePay();
@@ -34,23 +35,19 @@ namespace Demo1
 
         private void btSearchEmp_Click(object sender, EventArgs e)
         {
+            Employee employee = new Employee();
             if(tbEmpCode.TextLength != 0)
             {
                 try
                 {
                     int id = int.Parse(tbEmpCode.Text);
                     //get employee from data layer
-                    Employee employee = InMemoryEmployeeDal.GetEmployeeById(id);
+                    employee = InMemoryEmployeeDal.GetEmployeeById(id);
                     
                     if (employee == null)
                         _displayError.Display("Cannot find Employee!");
                     else
                     {
-                        _payroll.Emp = employee;
-                        //presents data to form controls
-                        tbEmpAge.Text = employee.Age.ToString();
-                        tbEmpName.Text = employee.Name;
-                        tbEmpCode.Text = employee.Id.ToString();
                         btCalculatePay.Enabled = true;
                     }
                 }
@@ -64,6 +61,11 @@ namespace Demo1
                 btCalculatePay.Enabled = false;
                 _displayError.Display("Please search employee first!");
             }
+            //presents data to form controls
+            _payroll.Emp = employee;
+            tbEmpAge.Text = employee?.Age.ToString();
+            tbEmpName.Text = employee?.Name;
+            tbEmpCode.Text = employee?.Id.ToString();
         }
     }
 }
