@@ -1,0 +1,10 @@
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\bin\Debug\Demo1.exe.config
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\bin\Debug\Demo1.exe
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\bin\Debug\Demo1.pdb
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.csprojAssemblyReference.cache
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.PayrollReportForm.resources
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.Properties.Resources.resources
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.csproj.GenerateResource.cache
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.csproj.CoreCompileInputs.cache
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.exe
+E:\programming code\C# code\TDT\StudyCaseDemo\StudyCaseDemo\Demo1\obj\Debug\Demo1.pdb
